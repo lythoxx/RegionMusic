@@ -1,0 +1,12 @@
+name: RegionMusic
+version: 1.1.0
+author: lythox
+main: me.lythox.sco.regionmusic.Main
+api-version: 1.17
+description: A plugin to play music in a specified WorldGuard region.
+depend: [WorldGuard, WorldEdit, WorldGuardEvents]
+commands:
+    /play:
+        description: Play music in a specified WorldGuard region
+    /remove:
+        description: Remove a WorldGuard region from RegionMusic
